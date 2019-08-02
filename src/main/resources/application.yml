@@ -1,0 +1,11 @@
+spring:
+ profiles:
+  active: dev
+ mvc:
+  view:
+   prefix: /
+ thymeleaf:
+  cache: false
+  enabled: false
+pagehelper:
+ helperDialect: oracle
